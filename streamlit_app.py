@@ -20,7 +20,10 @@ from MA_agent import lead_scoring_app_agent
 
 # AI SETUP
 
-os.environ["OPENAI_API_KEY"] = yaml.safe_load(open('credentials.yml'))['OPENAI_API_KEY']
+#os.environ["OPENAI_API_KEY"] = yaml.safe_load(open('credentials.yml'))['OPENAI_API_KEY']
+
+# for streamlit
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Live demo toggle: default first, fallback second.
 MODEL_LIST = ["gpt-5.5", "gpt-5.4", "gpt-5.4-mini", "gpt-4.1", "gpt-4.1-mini",  "gpt-4o-mini"]
