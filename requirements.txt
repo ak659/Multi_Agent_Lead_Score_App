@@ -1,0 +1,10 @@
+# pip install -r additional-requirements.txt
+langchain
+langchain-openai
+langchain-community
+langchain-classic
+langgraph
+h2o==3.46.0.1
+sqlalchemy
+plotly
+# ai-data-science-team
