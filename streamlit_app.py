@@ -39,8 +39,8 @@ conn = sql_engine.connect()
 
 # * STREAMLIT APP SETUP ----
 
-st.set_page_config(page_title="Your Business Intelligence AI Copilot")
-st.title("Your Business Intelligence AI Copilot")
+st.set_page_config(page_title="Business Intelligence AI Agent ")
+st.title("Business Intelligence AI Agent")
 
 st.markdown("""
             I'm a handy business intelligence agent that connects up to the leads_scored.db SQLite database that mimics an ERP System for a company. You can ask me Business Intelligence, Customer Analytics, and Data Visualization Questions. I will report the results. 
