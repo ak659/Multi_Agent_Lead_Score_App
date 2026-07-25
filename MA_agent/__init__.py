@@ -1,0 +1,1 @@
+from MA_agent.agent import lead_scoring_app_agent
